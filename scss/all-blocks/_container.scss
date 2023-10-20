@@ -1,0 +1,22 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 165px;
+    padding-right: 169px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        padding: 0px 24px;
+    }
+}
+
